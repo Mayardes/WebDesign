@@ -1,0 +1,9 @@
+h1{ color: #FF1100; font-family: serif; text-transform: capitalize;
+text-align:justify;} 
+h2 { color: blue; font-family: 'Times New Roman', Times, serif;
+font-size: 50px; font-style: oblique; text-decoration: underline;}
+h3{ color: green; font-family:'Times New Roman', Times, serif oblique; font-size: 50px; font-style: italic; text-decoration: underline;}
+
+p{text-indent: 50px; color:#000; font-variant:small-caps}
+
+a{ color:#F0F; text-decoration:none;}
