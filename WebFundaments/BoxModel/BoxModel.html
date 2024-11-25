@@ -15,7 +15,15 @@
       .emphasis { color: orange; background-color: gray;}
       .padding {padding: 25px;}
       .margin { margin: 2% 0 10px 100px}
+      .piapple { 
+        border-top-style: dotted;
+        border-top-color: black;
+        border-top-width: 20px;
+      }
       .border { border-color: red; border-width: 10px; border-top-style: dashed; border-right-style: double; border-bottom-style:groove; border-left-style:outset;}
+      .outline { outline: 10px dotted red }
+      .second-border { border: 10px dotted blue }
+
       body { font-family: "Courier New", Courier, monospace; }
       p { background-color: #ccc; text-align: justify;}
       h1 { background-color: rgb(160, 124, 124);}
@@ -91,7 +99,7 @@
     </p>
 
     <h2>Border</h2>
-    <p class="emphasis border">
+    <p class="emphasis piapple">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi alias
       aut perspiciatis earum molestias rem quasi eligendi est minima enim
       explicabo, placeat quisquam consequuntur itaque asperiores ad quam
@@ -109,6 +117,12 @@
       totam dolores cum architecto tempora officia sit minus natus dolor. Dicta
       ullam consequatur asperiores maxime perferendis architecto eos.
     </p>
+
+    <h2 class="outline">Outline</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, deserunt!</p>
+
+    <h2 class="second-border outline">SecondBorder</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, deserunt!</p>
 
   </body>
 </html>
